@@ -1,0 +1,39 @@
+{% extends "core/encabezado.html" %}
+
+
+{% block contenido %}
+
+
+<div class="container">
+<h1 class="mt-5 mb-5">Evaluación</h1>
+
+<form>
+  <div class="form-group">
+    <label for="exampleInputEmail1">Nombres</label>
+    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Ingresar Nombres">
+  </div>
+  <div class="form-group">
+    <label for="exampleInputEmail2">Apellidos</label>
+    <input type="email" class="form-control" id="exampleInputEmail2" aria-describedby="emailHelp" placeholder="Ingresar apellidos">
+  </div>
+  <div class="form-group">
+    <label for="exampleInputEmail2">DNI</label>
+    <input type="email" class="form-control" id="exampleInputEmail2" aria-describedby="emailHelp" placeholder="Ingresar DNI">
+  </div>
+  <div class="form-group">
+    <label for="exampleInputEmail2">CÓDIGO DE HISTORIA</label>
+    <input type="email" class="form-control" id="exampleInputEmail2" aria-describedby="emailHelp" placeholder="Ingresar código de historia">
+  </div>
+  <div class="form-group">
+    <label for="exampleFormControlFile1">SUBIR IMAGEN DE LA PIEL</label>
+    <input type="file" class="form-control-file" id="exampleFormControlFile1">
+  </div>
+  <br>
+  <button type="submit" class="btn btn-primary mb-5">EVALUAR</button>
+</form>
+
+</div>
+
+
+
+{% endblock contenido %}
