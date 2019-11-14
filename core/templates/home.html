@@ -19,7 +19,7 @@
 <body background="{% static 'core/img/fondomedico.jpg' %}">
 
  <form method="POST" action="">
- {{ csrf_token }}
+ {% csrf_token %}
  <h2>LOGIN</h2>
 
  {% comment %} <input type="text" placeholder="USUARIO" name="usuario"> {% endcomment %}
